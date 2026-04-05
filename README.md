@@ -248,7 +248,7 @@ bone-marrow-classification/
 This will allow the notebooks to load the trained models correctly.
 
 
-# Repository Structure
+## Repository Structure
 
 ```
 bone-marrow-classification/
@@ -256,30 +256,33 @@ bone-marrow-classification/
 ├── phase_1.ipynb
 ├── phase_2.ipynb
 ├── README.md
-
-└── submission/
-    └── phase1_submission.csv
+│
+├── models/
+│
+└── submissions/
+    ├── phase1_submission.csv
     └── phase2_submission.csv
+```
 
 ---
 
-# Key Ideas
+## Key Ideas
 
-* Transfer learning using **EfficientNet-B4**
-* Data augmentation for better generalization
-* Mixed precision training for faster computation
-* Few-shot learning adaptation for new diseases
+- Transfer learning using **EfficientNet-B4**
+- Data augmentation for better generalization
+- Mixed precision training for faster computation
+- Few-shot learning adaptation for new diseases
 
 ---
 
-# Future Improvements
+## Future Improvements
 
 Possible improvements include:
 
-* Using **EfficientNet-V2**
-* Applying **Test Time Augmentation (TTA)**
-* Using **k-fold cross validation**
-* Applying **class balancing methods**
-* Using **ensemble models**
+- Using **EfficientNet-V2**
+- Applying **Test Time Augmentation (TTA)**
+- Using **k-fold cross validation**
+- Applying **class balancing methods**
+- Using **ensemble models**
 
 ---
