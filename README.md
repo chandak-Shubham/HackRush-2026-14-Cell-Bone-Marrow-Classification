@@ -223,23 +223,6 @@ matplotlib
 
 ---
 
-# Repository Structure
-
-```
-bone-marrow-classification/
-
-├── phase_1.ipynb
-├── phase_2.ipynb
-├── README.md
-
-├── models/
-│   └── trained_weights.pth
-
-└── submission/
-    └── submission.csv
-```
----
-
 # Key Ideas
 
 * Transfer learning using **EfficientNet-B4**
