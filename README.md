@@ -221,6 +221,46 @@ PIL
 matplotlib
 ```
 
+## Model Weights
+
+Due to GitHub file size limitations, the trained model weights are hosted on Google Drive.
+
+You can download both Phase 1 and Phase 2 weights from the link below:
+
+**Google Drive Folder (Model Weights)**
+https://drive.google.com/drive/folders/1-1RzpXi0SwCW8Whp-GvbDlueatQXkbwk?usp=sharing
+
+The folder contains:
+
+* `phase1_weights.pth` → Model trained on the 14 diseases in Phase 1
+* `phase2_weights.pth` → Model fine-tuned to adapt to the new diseases (15–20) in Phase 2
+
+After downloading the files, place them in the following directory:
+
+```
+bone-marrow-classification/
+
+├── models/
+│   ├── phase1_weights.pth
+│   └── phase2_weights.pth
+```
+
+This will allow the notebooks to load the trained models correctly.
+
+
+# Repository Structure
+
+```
+bone-marrow-classification/
+
+├── phase_1.ipynb
+├── phase_2.ipynb
+├── README.md
+
+└── submission/
+    └── phase1_submission.csv
+    └── phase2_submission.csv
+
 ---
 
 # Key Ideas
